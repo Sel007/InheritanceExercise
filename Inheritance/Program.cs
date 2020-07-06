@@ -7,16 +7,16 @@ namespace Inheritance
     {
         static void Main(string[] args)
         {
-            /*Create an object of your Bird class and Reptile class
-         *  give values to your members using the object of your Bird class/Reptile class
-         *  
-         * Creatively display the class member values for each class
-         */
-            var myBird = new Bird();
-            myBird.WingColor = "blue";
-            myBird.CanFly = true;
-            myBird.WillMigrate = true;
-            myBird.BeakLength = 3.5;
+         //DONE - *Create an object of your Bird class and Reptile class
+         //DONE - *  give values to your members using the object of your Bird class/Reptile class
+         //*  
+         //DONE - * Creatively display the class member values for each class
+         //*/
+            var blueJay = new Bird();
+            blueJay.WingColor = "blue";
+            blueJay.CanFly = true;
+            blueJay.WillMigrate = true;
+            blueJay.BeakLength = 3.5;
 
             var lizard = new Reptile()
             {
@@ -26,7 +26,10 @@ namespace Inheritance
                 CanGrowTail = true
             };
 
-            var myAnimals = new Animal[] { myBird, lizard };
+            //List<Animal> animals = new List<Animal>();
+            //animals.Add(blueJay);
+            //animals.Add(lizard);
+            var myAnimals = new Animal[] { blueJay, lizard };
 
             foreach (var animal in myAnimals)
             {

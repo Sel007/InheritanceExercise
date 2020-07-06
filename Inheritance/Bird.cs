@@ -17,10 +17,7 @@ namespace Inheritance
         public bool CanFly { get; set; }
         public bool WillMigrate { get; set; }
         public double BeakLength { get; set; }
-        
     }
-
-
 }
 
 // DONE - Create a class Bird

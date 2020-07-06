@@ -15,9 +15,6 @@ namespace Inheritance
         public int LegCount { get; set; }
         public string LandSeaAir { get; set; }
     }
-
-    
-
 }
 
 // DONE - Create a class Animal
